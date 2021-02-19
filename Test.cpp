@@ -3,7 +3,11 @@
 using namespace std;
 int main ()
 {
-	char input[10] = "Welcome";
+//	string input;
+//cout << Enter Input: ";
+//cin >> input; 
+//This need to be converted into char array	
+    char input[10] = "'W','e','l','c','o','m','e'";
     int no = strlen(input);
     
 	for (int i=0;i<=no;i++)
